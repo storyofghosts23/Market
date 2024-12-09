@@ -16,4 +16,5 @@ app.use(cookieParser());
 app.use(morgan("dev"));
 app.use("/api",AuthRoutes);
 
+
 export default app
